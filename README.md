@@ -10,4 +10,10 @@ The installation proces is easy: you just need to import NormDistS.bas into your
 Tip: If you import NormDistS.bas into an empty workbook you can save this workbook as an Excel-AddIn (.xla / .xlam) for use in all your workbooks.
 
 #### Variables
-`x` is 
+`x` is the respective position on the x-axis (e.g. the day/month/year on your timeline)
+`UVal` is the time span over which you like to model your distribution
+
+#### How to use
+* `=NORMDISTS(...)` only retrieves a factor to be used with the a sum of things you want to distribute
+* E.g.: You want to interactively model and track the onboarding of 100 customers in your Excel worksheet
+  * you already have the values for the past twelve months, with the highest point being the 
