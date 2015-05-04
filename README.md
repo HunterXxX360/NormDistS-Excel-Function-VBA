@@ -15,4 +15,4 @@ Tip: If you import NormDistS.bas into an empty workbook you can save this workbo
 
 #### How to use
 * `=NORMDISTS(...)` only retrieves a factor to be used with the a sum of things you want to distribute
-* E.g.: You want to model the onboarding of 100 customers over 24 months and already know the twelfth month to be the highest point. The resulting formula woul like like this: `=100*NORMDISTS(x; 12)` with x as the month for which you want to get a value
+* E.g.: You want to model the onboarding of 100 customers over 24 months and already know the twelfth month to be the highest point. The resulting formula woul like like this: `=100*NORMDISTS(x; 12)` with `x` being the month for which you want to retrieve the number of customers.
