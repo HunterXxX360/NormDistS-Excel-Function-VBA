@@ -10,8 +10,8 @@ The installation proces is easy: you just need to import NormDistS.bas into your
 Tip: If you import NormDistS.bas into an empty workbook you can save this workbook as an Excel-AddIn (.xla / .xlam) for use in all your workbooks.
 
 #### Variables
-`x` is the respective position on the x-axis (e.g. the day/month/year on your timeline)
-`UVal` is the highest point of your data (or the exact middle of your time period)
+* `x` is the respective position on the x-axis (e.g. the day/month/year on your timeline)
+* `UVal` is the highest point of your data (or the exact middle of your time period)
 
 #### How to use
 * `=NORMDISTS(...)` only retrieves a factor to be used with the a sum of things you want to distribute
