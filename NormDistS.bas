@@ -8,6 +8,8 @@ Dim StdDevU As Double
 Dim Offset As Double
 
 If UVal <> 0 Then
+    UVal = UVal * 2
+    
     AvgU = UVal / 2 ' Gauß
     
     StdDevU = 0
