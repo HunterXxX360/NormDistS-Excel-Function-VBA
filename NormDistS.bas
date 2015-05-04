@@ -16,7 +16,7 @@ If UVal <> 0 Then
     Next i
     
     StdDevU = (StdDevU / UVal) ^ 0.5  ' variance = SUM i - average squared; devided by UVal
-                                      ' standard deviation = square-root 2 of variance -> to the power of 0.5
+                                      ' standard deviation = square-root of variance -> to the power of 0.5
                                       
     Val = Application.WorksheetFunction.NormDist(CDbl(x), AvgU, StdDevU, False)
 Else
