@@ -6,7 +6,7 @@ If you want to model a normal distributed bell curve in a MS Excel worksheet, yo
 The `=NORMDISTS(x; UVal)`-function is easier to use and gives you more control over an interactive model of bell-curve-shaping and normal distribution over a defined (or even partially unknown) period of time.
 
 #### Install
-The installation proces is easy: you just need to import NormDistS.bas into your desired worksheet from the VBA-editor and you are ready to use `=NORMDISTS(x; UVal)` inside your worksheet.
+The installation process is easy: you just need to import NormDistS.bas into your desired workbook from the VBA-editor and you are ready to use `=NORMDISTS(x; UVal)` inside your worksheet.
 Tip: If you import NormDistS.bas into an empty workbook you can save this workbook as an Excel-AddIn (.xla / .xlam) for use in all your workbooks.
 
 #### Variables
