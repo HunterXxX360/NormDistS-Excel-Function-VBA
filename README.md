@@ -11,10 +11,10 @@ Tip: If you import NormDistS.bas into an empty workbook you can save this workbo
 
 #### Variables
 * `x` is the respective position on the x-axis (e.g. the day/month/year on your timeline)
-* `UVal` is the highest point of your data (or the exact middle of your time period)
+* `UVal` is the tipping-point/maximum of your data (or the exact middle of your time period)
 
 #### How to use
 * `=NORMDISTS(...)` only retrieves a factor to be used with the a sum of things you want to distribute
-* E.g.: You want to model the onboarding of 100 customers over 24 months and already know the twelfth month to be the highest point. The resulting formula would look like this: `=100*NORMDISTS(x; 12)` with `x` being the month for which you want to retrieve the number of customers.
+* E.g.: You want to model the onboarding of 100 customers over 24 months and already know the twelfth month to be the tipping-point. The resulting formula would look like this: `=100*NORMDISTS(x; 12)` with `x` being the month for which you want to retrieve the number of customers.
 * Consider the month #0, when choosing `UVal`.
 * This function can be used in conjunction with known values. If you have periodized data, you can start from any following month using `=NORMDISTS(...)`. Tip: `UVal` needs to be equal to all months and not just the remaining.
